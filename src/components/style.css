@@ -1,0 +1,132 @@
+nav {
+    height: 60px;
+    box-shadow: 0 3px 4px rgba(92, 92, 92, 0.1);
+   
+  }
+  
+  nav > div {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo-container img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin-left: 35px;
+  }
+  
+  .company-name{
+    margin-left: -12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:160px;
+  }
+  
+  .company-name p:first-child {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color:rgb(246, 130, 19);
+  }
+  
+  .company-name p:last-child {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color:rgb(102, 102, 102);
+  }
+  
+  .profiles-link {
+    display: flex;
+    align-items: center;
+    width: 14%;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  
+  .profiles-link a {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .profiles-link a:hover {
+    color:rgb(246, 130, 19)
+  }
+
+  
+.FormSubmit {
+    color: rgb(95, 95, 95);
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: white; 
+    text-align: center;
+  }
+  .FormSubmit h2{
+    color: rgb(100, 99, 99);
+    font-size: 1.5rem;
+    font-weight:500;
+  }
+  .FormSubmit div {
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+  }
+  
+  .FormSubmit label {
+    width: 90px;
+    text-align:right;
+    margin-right: 1rem;
+    font-weight: 500;
+  }
+  
+  .FormSubmit input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .FormSubmit input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+  }
+  
+  .buttonsave {
+    padding: 0.5rem;
+    background-color: rgb(246, 130, 19);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .buttonsave:hover {
+    background-color: orange;
+  }
+  
+  

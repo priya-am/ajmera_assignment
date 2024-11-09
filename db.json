@@ -1,0 +1,25 @@
+{
+  "profile": [
+    {
+      "id": "8cd7",
+      "firstName": "Priya",
+      "lastName": "A M",
+      "email": "priyaam174@gmail.com",
+      "age": 24
+    },
+    {
+      "id": "2607",
+      "firstName": "Pooja ",
+      "lastName": "A M",
+      "email": "poojaam174@gmail.com",
+      "age": 26
+    },
+    {
+      "id": "75d1",
+      "firstName": "Gopi",
+      "lastName": "S R",
+      "email": "gopisr123@gmail.com",
+      "age": 26
+    }
+  ]
+}

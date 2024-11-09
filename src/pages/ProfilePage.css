@@ -1,0 +1,67 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-title {
+    color: rgb(100, 99, 99);
+    font-size: 1.5rem;
+    font-weight:500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .profile-card {
+    border: 1px solid #ddd;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-field {
+    width:fit-content; 
+    margin: 8px auto; 
+    text-align: left; 
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .edit-button ,.delete-button{
+    background-color: rgb(246, 130, 19);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color:rgb(133, 133, 133);
+  }
+  
+  .edit-button:hover {
+    background-color:orange;
+  }
+  
+  .delete-button:hover {
+    background-color:rgb(157, 157, 158);
+  }
+  
